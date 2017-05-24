@@ -20,3 +20,6 @@ function install_file {
 
 install_file $HOME .vimrc
 install_file $HOME .vim
+
+cd $HOME/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
