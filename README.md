@@ -1,7 +1,7 @@
 # vimconfig
 My vim config
 
-This includes YouCompleteMe, so it requires some dev packages to be installed. See https://github.com/Valloric/YouCompleteMe
+This includes YouCompleteMe as a submodule, so it requires some dev packages to be installed. See https://github.com/Valloric/YouCompleteMe
 
 Installation:
 ```
