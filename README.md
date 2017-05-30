@@ -1,5 +1,5 @@
 # vimconfig
-My vim config
+My vim config for (mostly) C++ development
 
 This includes YouCompleteMe as a submodule, so it requires some dev packages to be installed. See https://github.com/Valloric/YouCompleteMe
 
