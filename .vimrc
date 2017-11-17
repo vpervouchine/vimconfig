@@ -45,7 +45,7 @@ set hlsearch
 "set cursorline
 set backspace=indent,eol,start
 "set autochdir
-autocmd BufEnter * lcd %:p:h
+"autocmd BufEnter * lcd %:p:h
 "set makeprg=scons
 au BufNewFile,BufRead scons.* set filetype=python
 au BufRead,BufNewFile *.hcpp set filetype=cpp
@@ -70,13 +70,18 @@ set <M-r>=r
 " Enhanced keyboard mappings
 "
 map <F12> :NERDTreeToggle<CR>
-map <F11> :NERDTreeFind<CR>
+map <F7> :NERDTreeFind<CR>
 map <F10> :TlistToggle<CR>
 noremap <silent> <C-]> :FufTagWithCursorWord!<CR>
 
 map <C-P> :CtrlP
-map <C-B> :CtrlPBuffer
+map <C-B> :CtrlPBuffer<CR>
 
 set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]
 set laststatus=2 
 
+set path=src/main,src/libs
+
+let g:ycm_enable_diagnostic_signs = 0
+let g:ycm_collect_identifiers_from_tags_files = 1
+let g:ycm_confirm_extra_conf = 0
