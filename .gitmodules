@@ -25,3 +25,12 @@
 [submodule ".vim/bundle/a.vim"]
 	path = .vim/bundle/a.vim
 	url = https://github.com/vim-scripts/a.vim.git
+[submodule ".vim/bundle/typescript-vim"]
+	path = .vim/bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
+[submodule ".vim/bundle/vim-js-indent"]
+	path = .vim/bundle/vim-js-indent
+	url = git@github.com:jason0x43/vim-js-indent.git
+[submodule ".vim/bundle/tsuquyomi"]
+	path = .vim/bundle/tsuquyomi
+	url = git@github.com:Quramy/tsuquyomi.git
